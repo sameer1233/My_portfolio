@@ -1,0 +1,440 @@
+/* Universal properties */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+/* font family
+font-family: 'Oswald', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
+.h3{
+    font-size: 3.2rem;
+    font-family: 'Rubik', sans-serif;
+}
+.color-pink{
+    color: rgb(207, 45, 207);
+}
+.center{
+    text-align: center;
+}
+.center-div{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Header section  */
+.nav-row{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20.0rem;  
+  padding: 3.0rem;
+}
+.header{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.header-h3{
+    color: whitesmoke;
+    margin-top: -6px;
+}
+.navigation-list{
+    display: flex;
+    gap: 2.0rem;
+    list-style: none;
+}
+.nav-items a{
+    color: white;
+    font-size: 1.8rem;
+}
+.nav-items a:link,
+.nav-items a:visited{
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.nav-items a:hover,
+.nav-items a:active{
+    text-decoration: underline;
+}
+
+.sub-btn{
+     font-size: 1.7rem;
+     color: white;
+    background-color: rgb(207, 45, 207) ;
+    border-radius: 3.0rem;
+    padding: 1.0rem 1.5rem;
+    /* box-shadow: 2px 2px 15px -3px; */
+    transition: all 0.3s;
+}
+.sub-btn:hover{
+ background-color: rgb(173, 27, 173);
+}
+.hire_me{
+    text-decoration: none;
+    color: whitesmoke;
+}
+/* Banner of the Website */
+.h3{
+    text-align: center;
+    /* margin-top: 3.4rem; */
+}
+.Banner{
+     background-image: url(../img/banner-img.jpg);
+     width: 100%;
+     height: 67rem;
+     background-position: center;
+     background-size: cover;
+     z-index: -1;
+     opacity: 0.89;
+}
+
+.banner-text{
+    position: absolute;
+    top: 228px;
+    left: 9.5rem;
+}
+.para1{
+    color: rgb(248, 216, 248);
+    font-size: 1.8rem;
+}
+.Banner-h1{
+    color: whitesmoke;
+    margin-top: 1.6rem;
+    font-size: 9.5rem;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 1.4rem;
+}
+.Singh{
+    margin-left:2.5rem;
+}
+.btn{
+    border: none;
+    background-color: rgb(207, 45, 207) ;
+    color: white;
+    padding: 1.2rem 2.4rem;
+    font-size: 1.7rem;
+    border-radius: 2.2rem;
+    margin-top: 1.4rem;
+    transition: all 0.5s;
+}
+.your-email{
+    border: none;
+    outline: none;
+    margin-top: 1.4rem;
+    width: 33.8rem;
+    height: 3.5rem;
+    border-radius: 7.5rem;
+    outline-color: pink;
+    margin-left: 0.4rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.click-here{
+    margin-left: 0.7rem;
+    display: inline-block;
+}
+
+/* About Me section */
+.about-me{
+    margin-top: 4.5rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10.5rem;
+}
+
+.heading-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 3.5rem;
+}
+.about-h3{
+    padding-top: 3.8rem;
+    color: white;
+    font-size: 3.8rem;
+}
+.h1-about{
+    margin-left: -11.8rem;
+}
+.Sameer{
+    width: 7.5rem;
+    position: absolute;
+    margin-top: -2.8rem;
+    margin-left: 6px;
+}
+.about-me{
+    margin-top: 0;
+    padding: 6.5rem 0;
+    background-color: rgb(58, 54, 54);
+}
+.about-img{
+    margin-top: 5.5rem;
+    margin-left: 4.5rem;
+    width: 49rem;
+}
+.about-text{
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 12rem;
+    width: 49.5rem;
+    line-height: 3.0rem;
+}
+.about-heading{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    display: inline;
+    padding-left: 84px;
+}
+.sub-heading-box{
+    padding:1.5rem;
+}
+
+/* Services */
+
+.Services{
+    background-color: rgb(58, 54, 54);
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+.service-sub-container{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 5.8rem;
+    /* flex-wrap: wrap; */
+}
+.service-heading{
+    font-size: 3.8rem;
+    color: whitesmoke;
+    margin-bottom: 2.5rem;
+    margin-top: 3.7rem;
+    text-align: center;
+
+}
+.service-container{
+    width: 115rem;
+}
+.service-item{
+  
+    background-color: #777;
+    padding: 1.9rem;
+    width: 45rem;
+    border-radius: 0.7rem;
+    box-shadow: 9px 9px 12px;
+    transition: all 0.5s ;
+}
+.service-item:hover{
+    transform: translateY(-1.2rem);
+}
+.sub-heading{
+    text-align: center;
+    color:  whitesmoke;
+    font-size: 2.2rem;
+    margin-top:1.5rem ;
+}
+.icon{
+    margin: 12px 39%;
+    width: 5.3rem;
+}
+.service-para{
+    margin:1.2rem 0;
+    font-size: 1.5rem;
+    color: rgb(231, 223, 223);
+}
+.service-btn{
+    margin: 1.5rem 27%;
+}
+.btn:hover{
+    background-color: rgb(173, 27, 173);
+   }
+
+/* Skills Section */
+
+.skills{
+    background-color: rgb(58, 54, 54);
+}
+.skill-heading{
+    text-align: center;
+    padding-top: 12.5rem;
+    color: whitesmoke;
+    font-size: 3.5rem;
+    padding-bottom: 5.0rem;
+    color: white;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+}
+.skills-sub-container{
+    padding: 2.5rem;
+    width: 120rem;
+    background-color: rgb(52, 45, 45);
+    border-radius: 1.2rem;
+}
+.skill-item{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.item-para{
+    font-size: 1.8rem;
+    color: whitesmoke;
+}
+.item-para:hover{
+    text-decoration: underline;
+}
+.skill-note{
+    font-size: 3.0rem;
+    margin-top: 9.0rem;
+    padding-bottom: 2.2rem;
+    color:  white;
+}
+.note-section{
+    padding-bottom: 6.5rem;
+}
+.skill-btn{
+    margin: 0 41%;
+    width: 25rem;
+    font-size: 1.5rem;
+}
+
+
+/* My work section */
+.work-heading{
+    font-size: 3.2rem;
+    margin-bottom: 4.9rem;
+    color: whitesmoke;
+}
+.myWork{
+    padding-top: 7.9rem;
+  background-color: rgb(58, 54, 54);
+}
+.work-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50%;
+    grid-template-columns: repeat(1,1fr);
+    padding-bottom: 2.8rem;
+}
+.column-2{
+     display: grid;
+     grid-template-columns: repeat(4,30rem);
+     grid-template-rows: repeat(2,1fr);
+     gap: 1.2rem;
+     padding-right: 1.5rem;
+}
+.work-img{
+    max-width: 100%;
+    display: block;
+    transition: all 0.5s;
+}
+.work-img:hover{
+    transform: scale(1.1);
+}
+.work-item{
+    overflow: hidden;
+}
+
+/* Contact form */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.237);
+    background: linear-gradient(to right, rgb(183, 183, 183), rgb(165, 167, 168));
+    border-top: 3px solid rgba(255, 255, 255, 0.5);
+    border-left: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    box-shadow: 0 25px 45px rgb(0 0 0 / 21%);
+    backdrop-filter: blur(10px);
+    transform-style: preserve-3d;
+    padding: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-form {
+    margin: 0.5rem 0;
+    background: rgba(36, 36, 36, 0.943);
+  }
+  .contact-heading {
+    font-size: 3.9rem;
+    /* margin: 2.5rem 0px; */
+    color: rgb(226, 226, 226);
+    padding-top: 5.5rem;
+  }
+  .form-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5rem;
+    margin: 3.5rem 0;
+  }
+  .form_label {
+    display: block;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    margin: 0 0;
+  }
+  .inputbox {
+    outline: none;
+    width: 28.7rem;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ffffff;
+  }
+  .name {
+    outline: none;
+    width: 28.7rem;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e4e4e4;
+  }
+  .main-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6.2rem 0;
+  }
+  .submit-form {
+    position: absolute;
+    bottom: 2%;
+    left: 8.5%;
+    outline: none;
+    border: 1px solid whitesmoke;
+    outline: none;
+    padding: 1.2rem;
+    width: 8.8rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3.5rem;
+    border-radius: 2px;
+  }
+  .message {
+    outline: none;
+    margin-bottom: 1.8rem;
+  }
+  
+
+
+  /* ------------------Responsive -----------------*/
+   @media (max-width:1200px) {
+      .main{
+        width: 130rem;
+      }
+   }
